@@ -10,6 +10,7 @@ function main({Server}) {
   Server.subscribe(function({req, res}) {
     res.end("Hello, world!");
   });
+  return {};
 }
 
 let drivers = {
