@@ -1,0 +1,32 @@
+{
+  "name": "cycle-http-server",
+  "version": "0.1.0",
+  "description": "A simple driver for cycle.js that wraps node's http server",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "mkdir -p lib/ && ./node_modules/.bin/babel src/index.js -o lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylors/cycle-http-driver.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "http",
+    "driver",
+    "server"
+  ],
+  "author": "Tylor Steinberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylors/cycle-http-driver/issues"
+  },
+  "homepage": "https://github.com/tylors/cycle-http-driver#readme",
+  "devDependencies": {
+    "babel": "^5.8.21"
+  },
+  "perrDependencies": {
+    "@cycle/core": "^3.1.0"
+  }
+}
